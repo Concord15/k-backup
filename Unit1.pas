@@ -1,0 +1,48 @@
+unit Unit1;
+unit About;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, Vcl.ComCtrls;
+
+type
+  TForm1 = class(TForm)
+    MainMenu1: TMainMenu;
+    StatusBar1: TStatusBar;
+    N1: TMenuItem;
+    N2: TMenuItem;
+    N3: TMenuItem;
+    N4: TMenuItem;
+    N5: TMenuItem;
+    N6: TMenuItem;
+    N7: TMenuItem;
+    procedure N2Click(Sender: TObject);
+    procedure N5Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+  AboutBox: TAboutBox;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.N2Click(Sender: TObject);
+begin
+  Close();
+end;
+
+procedure TForm1.N5Click(Sender: TObject);
+begin
+  if MainMenu1.Items[5].Checked then MainMenu1.Items[1].Checked := False else MainMenu1.Items[1].Checked := True;
+   MainMenu1.Items[2].Checked := False;
+end;
+
+end.

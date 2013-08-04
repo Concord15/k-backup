@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2013.08.01 22:41:03.916,=C:\Users\Иван\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2013.08.01 22:47:49.855,C:\Users\Иван\Documents\RAD Studio\Projects\TEST3\Unit1.pas=C:\Users\Иван\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2013.08.01 22:47:49.855,C:\Users\Иван\Documents\RAD Studio\Projects\TEST3\Unit1.dfm=C:\Users\Иван\Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2013.08.01 22:47:52.953,C:\Users\Иван\Documents\RAD Studio\Projects\TEST3\Project1.dproj=C:\Users\Иван\Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2013.08.01 22:48:28.717,=C:\Users\Иван\Documents\RAD Studio\Projects\TEST3\ABOUT.pas</Transaction>
+    <Transaction>2013.08.01 23:17:43.100,=C:\Users\Иван\Documents\RAD Studio\Projects\TEST3\Unit2.pas</Transaction>
+  </Transactions>
+  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="ABOUT.pas"/>
+    <File Path="ABOUT.dfm"/>
+    <File Path="Unit1.pas"/>
+    <File Path="Unit1.dfm"/>
+    <File Path="Unit2.pas"/>
+    <File Path="Unit2.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

@@ -1,0 +1,55 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 202
+  ClientWidth = 447
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object StatusBar1: TStatusBar
+    Left = 0
+    Top = 183
+    Width = 447
+    Height = 19
+    Panels = <>
+    ExplicitLeft = 232
+    ExplicitTop = 112
+    ExplicitWidth = 0
+  end
+  object MainMenu1: TMainMenu
+    Left = 216
+    Top = 104
+    object N1: TMenuItem
+      Caption = #1060#1072#1081#1083
+      object N2: TMenuItem
+        Caption = #1042#1099#1093#1086#1076
+        OnClick = N2Click
+      end
+    end
+    object N3: TMenuItem
+      Caption = #1048#1085#1089#1090#1088#1091#1084#1077#1085#1090#1099
+      object N5: TMenuItem
+        Caption = #1057#1090#1088#1086#1082#1072' '#1089#1086#1089#1090#1086#1103#1085#1080#1103
+        Checked = True
+        OnClick = N5Click
+      end
+      object N6: TMenuItem
+        Caption = #1055#1072#1088#1072#1084#1077#1090#1088#1099
+      end
+    end
+    object N4: TMenuItem
+      Caption = #1057#1087#1088#1072#1074#1082#1072
+      object N7: TMenuItem
+        Caption = #1054' '#1087#1088#1086#1075#1088#1072#1084#1084#1077
+      end
+    end
+  end
+end
